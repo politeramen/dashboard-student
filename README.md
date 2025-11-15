@@ -41,6 +41,7 @@ A responsive student dashboard for Ramdeobaba College featuring academic analyti
 
 ### Installation
 git clone https://github.com/politeramen/dashboard-student
+
 cd dashboard-student
 
 Install dependencies:
