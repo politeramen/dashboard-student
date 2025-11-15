@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Dashboard</title>
+    
+    <!-- Custom CSS for the dark theme and font -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #1f2937; /* Dark Slate Blue */
+        color: #e5e7eb; /* Light Gray Text */
+        margin: 0;
+        padding-bottom: 60px; /* Space for mobile bottom nav */
+      }
+      @media (min-width: 768px) {
+        body {
+          padding-bottom: 0;
+        }
+      }
+      /* Custom Scrollbar for a sleek dark theme look */
+      ::-webkit-scrollbar { width: 8px; }
+      ::-webkit-scrollbar-track { background: #1f2937; }
+      ::-webkit-scrollbar-thumb { background: #4b5563; border-radius: 4px; }
+      ::-webkit-scrollbar-thumb:hover { background: #6b7280; }
+    </style>
+    
+    <!-- Load Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Load Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
