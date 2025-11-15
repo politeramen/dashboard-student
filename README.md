@@ -40,8 +40,8 @@ A responsive student dashboard for Ramdeobaba College featuring academic analyti
 - npm or yarn
 
 ### Installation
-git clone <your-repo-url>
-cd <your-folder>
+git clone https://github.com/politeramen/dashboard-student
+cd dashboard-student
 
 Install dependencies:
 npm install
