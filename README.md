@@ -1,16 +1,60 @@
-# React + Vite
+# Student Portal (React Dashboard)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive student dashboard for Ramdeobaba College featuring academic analytics, schedule/timeline, and profile management. Built using React, Tailwind CSS, lucide-react icons, and Chart.js.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Dashboard View
 
-## React Compiler
+- Academic quick stats (CGPA, attendance, credits, pending exams)
+- Attendance analysis chart (Chart.js)
+- Circular progress indicators for CGPA and credit completion
+- Upcoming deadlines, events, and notices
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Academics Page
 
-## Expanding the ESLint configuration
+- Semester CGPA trend line chart
+- Accordion for subject-wise marks, attendance, and faculty
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Schedule Page
+
+- Timeline view of upcoming exams, events, and notices
+- Calendar sidebar highlighting important dates
+
+### Profile Page
+
+- Detailed student info
+- Quick status with “High Performer” tag
+- Editable profile settings
+
+### Mobile Friendly
+
+- Sidebar navigation (desktop)
+- Mobile header and bottom menu for navigation
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or newer recommended)
+- npm or yarn
+
+### Installation
+git clone <your-repo-url>
+cd <your-folder>
+
+Install dependencies:
+npm install
+
+### Start the Dev Server
+
+For Vite:
+npm run dev
+
+or
+
+For Create React App:
+npm start
+
+
+Clone the repo:
